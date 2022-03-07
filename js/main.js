@@ -70,11 +70,11 @@ $(function () {
 	// 업버튼
    $(window).scroll(function(){
         if($(this).scrollTop() > 500){
-            $("#up-btn").addClass("on");
+            $(".up-btn").addClass("on");
         } else {
-            $("#up-btn").removeClass("on");
+            $(".up-btn").removeClass("on");
         };
-        $("#up-btn a").click(function(){   
+        $(".up-btn a").click(function(){   
             $("html, body").stop().animate({
                 scrollTop: 0
             }, 1000);
